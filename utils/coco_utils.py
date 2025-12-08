@@ -3,7 +3,7 @@ import os, json
 import numpy as np
 import h5py
 
-BASE_DIR = '/data/por1329/Week3/utils/datasets/coco_captioning'
+BASE_DIR = r'C:\Users\dhlee\Desktop\3_2_sem\DeepLearn\assignment3\week3-deeplearning-assignment-dhlee9255\utils\datasets\coco_captioning'
 
 def load_coco_data(base_dir=BASE_DIR,
                    max_train=None,
